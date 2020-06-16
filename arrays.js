@@ -43,7 +43,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, newCandy) {
 
 function accessElementInArray(chocolateBars, placeHolder) {
 
-  var placeHolder = 3
-
+  const placeHolder = 3
+  
   return chocolateBars[placeHolder]
 }
