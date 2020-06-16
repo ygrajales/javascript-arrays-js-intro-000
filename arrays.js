@@ -59,7 +59,7 @@ function removeElementFromBeginningOfArray(chocolateBars) {
 
 }
 
-function destructivelyAddElementToEndOfArray (chocolateBars) {
+function destructivelyRemoveElementFromEndOfArray (chocolateBars) {
 
   chocolateBars.pop()
 
