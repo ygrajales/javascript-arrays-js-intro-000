@@ -6,11 +6,11 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray(chocolateBars, newCandy) {
-  
+
   var newCandy = 'three musketeers'
-  
+
   var newChocolateBars = [newCandy, ...chocolateBars]
-  
+
   return newChocolateBars
 }
 
