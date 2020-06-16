@@ -40,3 +40,10 @@ function destructivelyAddElementToEndOfArray(chocolateBars, newCandy) {
 
   return chocolateBars
 }
+
+function accessElementInArray(chocolateBars, placeHolder) {
+
+  var placeHolder = '3'
+
+  return chocolateBars[placeHolder]
+}
