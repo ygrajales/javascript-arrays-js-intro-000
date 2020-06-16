@@ -45,3 +45,10 @@ function accessElementInArray(chocolateBars, placeHolder) {
 
   return chocolateBars[placeHolder]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
+
+  chocolateBars.shift()
+
+  return chocolateBars
+}
