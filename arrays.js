@@ -22,3 +22,21 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, newCandy) {
 
   return chocolateBars
 }
+
+function addElementToEndOfArray(chocolateBars, newCandy) {
+
+  var newCandy = 'foo'
+
+  var newChocolateBars = [...chocolateBars, newCandy]
+
+  return newChocolateBars
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, newCandy) {
+
+  var newCandy = 'foo'
+
+  chocolateBars.push(newCandy)
+
+  return chocolateBars
+}
